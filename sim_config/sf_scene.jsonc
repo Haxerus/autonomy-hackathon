@@ -12,7 +12,7 @@
         // back to) so the drone appears at the start directly with no startup
         // jump — the RaceManager captures this first-seen spot as the start.
         "xyz": "0.0 -35.0 -0.1",
-        "rpy-deg": "0 0 0"
+        "rpy-deg": "0 0 90"
       },
       "robot-config": "sf_robot.jsonc"
     }

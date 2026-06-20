@@ -20,7 +20,8 @@ from redteam_sim import connect, read_frame
 
 def main():
     ap = argparse.ArgumentParser(description="Live OpenCV view of the drone camera.")
-    ap.add_argument("--address", default="127.0.0.1")
+    ap.add_argument("--address", default="127.0.0.1") # Linux
+    # ap.add_argument("--address", default="172.23.240.1") # Windows WSL2
     ap.add_argument("--camera", default="FPV", help='camera id: "FPV" or "Chase"')
     args = ap.parse_args()
 

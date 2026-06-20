@@ -53,6 +53,7 @@ You're on the clock — but accuracy beats speed: a wrong turn sends you to a ro
 
 ## Starting the game
 
+Get the binaries here: https://rmuscanada-my.sharepoint.com/:f:/g/personal/waseef_airmetal_com/IgDQVTHSGCo9RpprhYn3DMmLAS24P6QQ9nvCJ3DAcHaGV8E?e=0ywah0
 It's a standalone build — no install, just run it from this folder. Pass the **map** as the
 first argument and any options after it. The options are the same on Windows and Linux.
 

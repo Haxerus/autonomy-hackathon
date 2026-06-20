@@ -64,7 +64,8 @@ async def fly(address: str, alt: float, speed: float):
 
 def main():
     ap = argparse.ArgumentParser(description="SimpleFlight autonomous-flight starter.")
-    ap.add_argument("--address", default="127.0.0.1")
+    ap.add_argument("--address", default="127.0.0.1") # Linux
+    # ap.add_argument("--address", default="172.23.240.1") # Windows WSL2
     ap.add_argument("--alt", type=float, default=5.0, help="climb altitude (m)")
     ap.add_argument("--speed", type=float, default=3.0, help="move speed (m/s)")
     args = ap.parse_args()
